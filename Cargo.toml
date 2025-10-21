@@ -1,0 +1,10 @@
+[package]
+name = "rust_course_project"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# 使用 Bevy 作为游戏引擎，构建 2D 平台跳跃示例
+bevy = { version = "0.14", default-features = true }
